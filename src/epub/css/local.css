@@ -103,6 +103,16 @@ span.elision{
 }
 /* End verse */
 
+/* Begin letters */
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+/* End letters */
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -115,4 +125,8 @@ footer{
 	max-width: 80%;
 	text-align: justify;
 	text-align-last: center;
+}
+
+#chapter-3-5 blockquote header{
+	margin: 1em;
 }
