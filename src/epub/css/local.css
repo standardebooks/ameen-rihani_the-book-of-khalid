@@ -106,15 +106,19 @@ footer{
 }
 
 #epilogue footer{
-	font-size: smaller;
+	font-variant: all-small-caps;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 80%;
 	text-align: justify;
 	text-align-last: center;
-	text-transform: uppercase;
 }
 
 #chapter-3-5 blockquote header{
+	font-variant: small-caps;
 	margin: 1em;
+}
+
+#chapter-3-5 blockquote header span{
+	font-variant: normal;
 }
